@@ -208,11 +208,11 @@ function GloryLandingPage() {
       <div className="col-md-6 text-start">
         <div className="social-links">
           <p className="text-light mb-2">FOLLOW US</p>
-          <a href="#" className="text-light me-2">LinkedIn</a>
+          <a href="https://x.com/" className="text-light me-2">LinkedIn</a>
           <span className="text-light mx-1">/</span>
-          <a href="#" className="text-light me-2 ms-1">WhatsApp</a>
+          <a href="https://x.com/" className="text-light me-2 ms-1">WhatsApp</a>
           <span className="text-light mx-1">/</span>
-          <a href="#" className="text-light ms-1">Instagram</a>
+          <a href="https://x.com/" className="text-light ms-1">Instagram</a>
         </div>
       </div>
       <div className="col-md-6 text-md-end mt-3 mt-md-0">
