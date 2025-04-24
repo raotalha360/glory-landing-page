@@ -453,13 +453,7 @@ header {
   }
   
   .how-it-works .col-md-4:not(:last-child)::after {
-    content: '';
-    position: absolute;
-    bottom: -35px;
-    left: 15%;
-    right: 15%;
-    height: 1px;
-    background-color: #ddd;
+   display: none;
   }
   
   .how-it-works .col-md-4:last-child {
@@ -473,13 +467,7 @@ header {
   }
   
   .blocklist-section .col-md-4:not(:last-child)::after {
-    content: '';
-    position: absolute;
-    bottom: -35px;
-    left: 15%;
-    right: 15%;
-    height: 1px;
-    background-color: #ddd;
+   display: none;
   }
   
   .blocklist-section .col-md-4:last-child {
