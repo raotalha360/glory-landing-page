@@ -509,7 +509,40 @@ header {
   .custom-image-container {
     min-height: 80px;
   }
+  /* Mobile-specific fixes for card spacing */
+@media (max-width: 768px) {
+  /* Force significant space between feature cards */
+  .feature-card {
+    margin-bottom: 40px !important;
+    padding-bottom: 20px !important;
+    border-bottom: 1px solid #e0e0e0;
+  }
   
+  /* Force significant space between blocklist cards */
+  .blocklist-card {
+    margin-bottom: 40px !important;
+    position: relative;
+    padding-bottom: 20px !important;
+  }
+  
+  /* Last cards don't need bottom border */
+  .feature-card:last-child,
+  .blocklist-card:last-child {
+    border-bottom: none;
+  }
+  
+  /* Add more padding to the sections */
+  .how-it-works .row,
+  .blocklist-section .row {
+    padding-bottom: 20px;
+  }
+  
+  /* Make container padding more obvious */
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
   .how-it-works h2, .blocklist-section h2, .why-matters-section h2 {
     font-size: 1.8rem;
   }
