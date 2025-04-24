@@ -532,24 +532,8 @@ header {
   .footer .social-links {
     text-align: left;
   }
+}
 
-  /* Hide four images in hero section on mobile */
-  /* Hide specific images - you can adjust which ones to hide */
-  .col-md-6:first-child .custom-image-container:nth-child(2),
-  .col-md-6:first-child .custom-image-container:nth-child(3),
-  .col-md-6:last-child .custom-image-container:nth-child(2),
-  .col-md-6:last-child .custom-image-container:nth-child(3) {
-    display: none;
-  }
-  
-  /* Make the remaining images larger */
-  .col-md-6:first-child .custom-image-container:nth-child(1),
-  .col-md-6:last-child .custom-image-container:nth-child(1) {
-    height: 200px !important;
-    margin-bottom: 0;
-  }
-}
-}
 
 @media (max-width: 576px) {
   /* Smaller screens get smaller images */

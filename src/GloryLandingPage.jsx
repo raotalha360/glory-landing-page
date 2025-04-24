@@ -46,13 +46,13 @@ function GloryLandingPage() {
                   
                   {/* Second column of images with custom sizes */}
                   <div className="col-md-6">
-                    <div className="custom-image-container mb-3" style={{ height: '111px' }}>
-                      <img src="/images/dome-sky.jpeg" alt="dome sky" className="img-fluid rounded" />
+                    <div className="custom-image-container mb-3 d-none d-md-block" style={{ height: '111px' }}>
+                      <img src="/images/dome-sky.jpeg" alt="dome sky" className="img-fluid rounded " />
                     </div>
                     <div className="custom-image-container mb-3" style={{ height: '180px' }}>
                       <img src="/images/dome-artwork.jpeg" alt="Dome artwork" className="img-fluid rounded" />
                     </div>
-                    <div className="custom-image-container" style={{ height: '121px' }}>
+                    <div className="custom-image-container d-none d-md-block" style={{ height: '121px' }}>
                       <img src="/images/mosque.jpeg" alt="mosque" className="img-fluid rounded" />
                     </div>
                   </div>
