@@ -118,7 +118,7 @@ function GloryLandingPage() {
             <div className="col-md-4">
               <div className="blocklist-card bg-light-cream p-4 rounded">
                 <div className="brand-logo-container mb-3">
-                  <img src="/images/coca-cola-logo.jpg" alt="Coca-Cola Logo" className="brand-logo" />
+                  <img src="/images/coca-cola-logo.png" alt="Coca-Cola Logo" className="brand-logo" />
                 </div>
                 <h3 className="fw-bold">Coca-Cola</h3>
                 <p className="brand-description text-start">
@@ -132,7 +132,7 @@ function GloryLandingPage() {
             <div className="col-md-4">
               <div className="blocklist-card bg-light-cream p-4 rounded">
                 <div className="brand-logo-container mb-3">
-                  <img src="/images/mcdonalds-logo.jpg" alt="McDonald's Logo" className="brand-logo" />
+                  <img src="/images/mcdonalds-logo.png" alt="McDonald's Logo" className="brand-logo" />
                 </div>
                 <h3 className="fw-bold">McDonald's</h3>
                 <p className="brand-description text-start">
@@ -148,7 +148,7 @@ function GloryLandingPage() {
             <div className="col-md-4">
               <div className="blocklist-card bg-light-cream p-4 rounded">
                 <div className="brand-logo-container mb-3">
-                  <img src="/images/netflix-logo.jpg" alt="Netflix Logo" className="brand-logo" />
+                  <img src="/images/netflix-logo.png" alt="Netflix Logo" className="brand-logo" />
                 </div>
                 <h3 className="fw-bold">Netflix</h3>
                 <p className="brand-description text-start">
