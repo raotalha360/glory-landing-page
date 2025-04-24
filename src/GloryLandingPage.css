@@ -446,6 +446,46 @@ header {
     padding-right: 20px;
   }
 
+  /* Specific fix for How It Works section on mobile */
+  .how-it-works .col-md-4 {
+    margin-bottom: 70px;
+    position: relative;
+  }
+  
+  .how-it-works .col-md-4:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    bottom: -35px;
+    left: 15%;
+    right: 15%;
+    height: 1px;
+    background-color: #ddd;
+  }
+  
+  .how-it-works .col-md-4:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Similar fix for Blocklist section columns */
+  .blocklist-section .col-md-4 {
+    margin-bottom: 70px;
+    position: relative;
+  }
+  
+  .blocklist-section .col-md-4:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    bottom: -35px;
+    left: 15%;
+    right: 15%;
+    height: 1px;
+    background-color: #ddd;
+  }
+  
+  .blocklist-section .col-md-4:last-child {
+    margin-bottom: 0;
+  }
+
   .hero-content h1 {
     font-size: 1.8rem;
   }
