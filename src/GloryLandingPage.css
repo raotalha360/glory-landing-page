@@ -453,9 +453,7 @@ header {
     position: relative;
   }
   
-  .how-it-works .col-md-4:not(:last-child) {
-   display: none;
-  }
+  
   
   .how-it-works .col-md-4:last-child {
     margin-bottom: 0;
