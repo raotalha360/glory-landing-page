@@ -412,7 +412,10 @@ header {
   .how-it-works, .blocklist-section, .why-matters-section {
     padding: 40px 0;
   }
-  
+  .feature-card, .blocklist-card {
+    margin-bottom: 30px !important;
+  }
+
   .hero-content h1 {
     font-size: 1.8rem;
   }
