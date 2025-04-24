@@ -453,7 +453,7 @@ header {
     position: relative;
   }
   
-  .how-it-works .col-md-4:not(:last-child) {
+  .how-it-works .col-md-4:not(:last-child)::after {
     content: '';
     position: absolute;
     bottom: -35px;
@@ -473,7 +473,7 @@ header {
     position: relative;
   }
   
-  .blocklist-section .col-md-4:not(:last-child) {
+  .blocklist-section .col-md-4:not(:last-child)::after {
     content: '';
     position: absolute;
     bottom: -35px;
