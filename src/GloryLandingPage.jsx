@@ -72,7 +72,7 @@ function GloryLandingPage() {
           </p>
 
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-12 col-md-3 mx-auto">
               <div className="feature-card bg-light-cream p-4 rounded h-100">
                 <h3 className="fw-bold">Search or Scan to Discover Boycotted Products</h3>
                 <p className="text-muted mt-3">
@@ -81,7 +81,8 @@ function GloryLandingPage() {
                 <img src="/images/app-screenshot.jpg" alt="App Screenshot" className="img-fluid rounded mt-3" />
               </div>
             </div>
-            <div className="col-md-4">
+            <div class="row mt-4">
+            <div className="col-12 col-md-6">
               <div className="feature-card bg-light-cream p-4 rounded h-100">
                 <h3 className="fw-bold">See the Truth. Understand the Why.</h3>
                 <p className="text-muted mt-3">
@@ -92,7 +93,7 @@ function GloryLandingPage() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-12 col-md-6">
               <div className="feature-card bg-light-cream p-4 rounded h-100">
                 <h3 className="fw-bold">Your Contribution Makes Change Possible.</h3>
                 <p className="text-muted mt-3">
@@ -100,6 +101,7 @@ function GloryLandingPage() {
                 </p>
                 <img src="/images/donation-example.jpg" alt="Donation Example" className="img-fluid rounded mt-3" />
               </div>
+            </div>
             </div>
           </div>
         </div>
