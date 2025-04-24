@@ -425,6 +425,7 @@ header {
     margin-bottom: 60px !important;
     position: relative;
     padding-bottom: 20px !important;
+    border-bottom: none !important;
   }
   
   /* Last cards don't need bottom border */
@@ -452,7 +453,7 @@ header {
     position: relative;
   }
   
-  .how-it-works .col-md-4:not(:last-child)::after {
+  .how-it-works .col-md-4:not(:last-child) {
    display: none;
   }
   
@@ -466,7 +467,7 @@ header {
     position: relative;
   }
   
-  .blocklist-section .col-md-4:not(:last-child)::after {
+  .blocklist-section .col-md-4:not(:last-child) {
    display: none;
   }
   
