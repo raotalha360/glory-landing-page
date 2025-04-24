@@ -33,7 +33,7 @@ function GloryLandingPage() {
                 <div className="row g-3">
                   {/* First column of images with custom sizes */}
                   <div className="col-md-6">
-                    <div className="custom-image-container mb-3" style={{ height: '74px' }}>
+                    <div className="custom-image-container mb-3 d-none d-md-block" style={{ height: '74px' }}>
                       <img src="/images/image-1.jpeg" alt="Dome of the Rock" className="img-fluid rounded" />
                     </div>
                     <div className="custom-image-container mb-3" style={{ height: '150px' }}>
