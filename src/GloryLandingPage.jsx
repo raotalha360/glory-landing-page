@@ -39,7 +39,7 @@ function GloryLandingPage() {
                     <div className="custom-image-container mb-3" style={{ height: '150px' }}>
                       <img src="/images/Phalestine-Flag.jpeg" alt="Palestine Flag" className="img-fluid rounded" />
                     </div>
-                    <div className="custom-image-container" style={{ height: '182px' }}>
+                    <div className="custom-image-container mb-3 d-none d-md-block" style={{ height: '182px' }}>
                       <img src="/images/child-flag.jpeg" alt="Child Flag" className="img-fluid rounded" />
                     </div>
                   </div>
@@ -49,10 +49,10 @@ function GloryLandingPage() {
                     <div className="custom-image-container mb-3 d-none d-md-block" style={{ height: '111px' }}>
                       <img src="/images/dome-sky.jpeg" alt="dome sky" className="img-fluid rounded " />
                     </div>
-                    <div className="custom-image-container mb-3" style={{ height: '180px' }}>
+                    <div className="custom-image-container mb-3 d-none d-md-block" style={{ height: '180px' }}>
                       <img src="/images/dome-artwork.jpeg" alt="Dome artwork" className="img-fluid rounded" />
                     </div>
-                    <div className="custom-image-container d-none d-md-block" style={{ height: '121px' }}>
+                    <div className="custom-image-container mb-3" style={{ height: '121px' }}>
                       <img src="/images/mosque.jpeg" alt="mosque" className="img-fluid rounded" />
                     </div>
                   </div>
@@ -72,7 +72,7 @@ function GloryLandingPage() {
           </p>
 
           <div className="row">
-            <div className="col-12 col-md-3 mx-auto">
+            <div className="col-md-4">
               <div className="feature-card bg-light-cream p-4 rounded h-100">
                 <h3 className="fw-bold">Search or Scan to Discover Boycotted Products</h3>
                 <p className="text-muted mt-3">
@@ -81,8 +81,7 @@ function GloryLandingPage() {
                 <img src="/images/app-screenshot.jpg" alt="App Screenshot" className="img-fluid rounded mt-3" />
               </div>
             </div>
-            <div class="row mt-4">
-            <div className="col-12 col-md-6">
+            <div className="col-md-4">
               <div className="feature-card bg-light-cream p-4 rounded h-100">
                 <h3 className="fw-bold">See the Truth. Understand the Why.</h3>
                 <p className="text-muted mt-3">
@@ -93,7 +92,7 @@ function GloryLandingPage() {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-md-6">
+            <div className="col-md-4">
               <div className="feature-card bg-light-cream p-4 rounded h-100">
                 <h3 className="fw-bold">Your Contribution Makes Change Possible.</h3>
                 <p className="text-muted mt-3">
@@ -101,7 +100,6 @@ function GloryLandingPage() {
                 </p>
                 <img src="/images/donation-example.jpg" alt="Donation Example" className="img-fluid rounded mt-3" />
               </div>
-            </div>
             </div>
           </div>
         </div>
