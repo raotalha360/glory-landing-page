@@ -412,7 +412,9 @@ header {
   .mobile-center p {
     text-align: center !important;
   }
-  
+  .hero-content .donate-btn{
+    display:none !important;
+  }
   .footer .footer-logo {
     display: block;
     margin-left: auto;

@@ -22,7 +22,7 @@ function GloryLandingPage() {
                 </p>
                 <div className="mt-4">
                   <button className="btn btn-success me-3">App Coming Soon</button>
-                  <button className="btn btn-outline-dark">Donate Now Coming Soon</button>
+                  <button className="btn btn-outline-dark d-none d-md-inline-block">Donate Now Coming Soon</button>
                 </div>
               </div>
             </div>
@@ -206,7 +206,7 @@ function GloryLandingPage() {
         <div className="social-links mt-3">
           <p className="text-light mb-2">FOLLOW US</p>
           <div className="social-links-container">
-            <a href="https://x.com/" className="text-light me-2">LinkedIn</a>
+            <a href="https://www.linkedin.com/company/gloryappp/" className="text-light me-2">LinkedIn</a>
             <span className="text-light mx-1">/</span>
             <a href="https://x.com/" className="text-light me-2 ms-1">WhatsApp</a>
             <span className="text-light mx-1">/</span>
