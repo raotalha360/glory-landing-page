@@ -21,8 +21,8 @@ function GloryLandingPage() {
                   Glory helps you identify Israeli-affiliated products and shows you ethical alternatives — so your money aligns with your values.
                 </p>
                 <div className="mt-4">
-                  <button className="btn btn-success me-3">Download the App</button>
-                  <button className="btn btn-outline-dark">Donate Now</button>
+                  <button className="btn btn-success me-3">App Coming Soon</button>
+                  <button className="btn btn-outline-dark">Donate Now Coming Soon</button>
                 </div>
               </div>
             </div>
