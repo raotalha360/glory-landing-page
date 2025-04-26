@@ -66,7 +66,7 @@ function GloryLandingPage() {
       {/* How It Works Section */}
       <section className="how-it-works py-5">
         <div className="container text-center">
-          <h2 className="fw-bold mb-4">How Its Glory Works?</h2>
+          <h2 className="fw-bold mb-4">How Glory Works?</h2>
           <p className="text-muted mb-5">
             Glory makes it easy to boycott Israeli-affiliated products and support ethical alternatives — all in seconds.
           </p>
@@ -78,7 +78,7 @@ function GloryLandingPage() {
                 <p className="text-muted mt-3">
                   Quickly find out if a brand or product supports Israeli occupation. Simply search or scan the barcode to reveal its status and get an ethical alternative instantly.
                 </p>
-                <img src="/images/app-screenshot.jpg" alt="App Screenshot" className="img-fluid rounded mt-3" />
+                <img src="/images/app-screenshot.png" alt="App Screenshot" className="img-fluid rounded mt-3" />
               </div>
             </div>
             <div className="col-md-4">
@@ -88,7 +88,7 @@ function GloryLandingPage() {
                   Each product page gives you the full picture — why it's on the boycott list, with trusted proof and context, so you can make your decision with confidence.
                 </p>
                 <div className="product-example mt-3">
-                  <img src="/images/pepsi-example.jpg" alt="Pepsi Example" className="img-fluid rounded" />
+                  <img src="/images/pepsi-example.png" alt="Pepsi Example" className="img-fluid rounded" />
                 </div>
               </div>
             </div>
@@ -98,7 +98,7 @@ function GloryLandingPage() {
                 <p className="text-muted mt-3">
                   Every donation supports Glory's mission and delivers aid directly to Gaza. Whether you give money or simply watch an ad — your support matters.
                 </p>
-                <img src="/images/donation-example.jpg" alt="Donation Example" className="img-fluid rounded mt-3" />
+                <img src="/images/donation-example.png" alt="Donation Example" className="img-fluid rounded mt-3" />
               </div>
             </div>
           </div>
