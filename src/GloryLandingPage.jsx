@@ -16,9 +16,9 @@ function GloryLandingPage() {
             {/* Left Content Column */}
             <div className="col-lg-5">
               <div className="hero-content">
-                <h1 className="fw-bold">Boycott with Purpose. Support Gaza with Every Choice.</h1>
+                <h1 className="fw-bold">Glory – Boycott Israeli-Affiliated Brands with One App</h1>
                 <p className="text-muted mt-3">
-                  Glory helps you identify Israeli-affiliated products and shows you ethical alternatives — so your money aligns with your values.
+                Glory helps you scan, search, and boycott brands that support Israel’s occupation. Get ethical alternatives instantly.
                 </p>
                 <div className="mt-4">
                   <button className="btn btn-success me-3">App Coming Soon</button>
@@ -62,7 +62,53 @@ function GloryLandingPage() {
           </div>
         </div>
       </section>
-
+      {/* Stats Counter Section */}
+{/* Stats Counter Section */}
+<section className="stats-counter py-4">
+  <div className="container">
+    <div className="row">
+      <div className="col-md-3">
+        <div className="stat-item d-flex align-items-center">
+          <span className="stat-icon me-2">✅</span>
+          <div className="stat-text d-flex flex-wrap align-items-baseline">
+            <span className="stat-number fw-bold me-1">47,320</span>
+            <span className="stat-label">people boycotting today</span>
+          </div>
+        </div>
+      </div>
+      
+      <div className="col-md-3">
+        <div className="stat-item d-flex align-items-center">
+          <span className="stat-icon me-2">🌐</span>
+          <div className="stat-text d-flex flex-wrap align-items-baseline">
+            <span className="stat-number fw-bold me-1">5</span>
+            <span className="stat-label">countries using Glory</span>
+          </div>
+        </div>
+      </div>
+      
+      <div className="col-md-3">
+        <div className="stat-item d-flex align-items-center">
+          <span className="stat-icon me-2">🔎</span>
+          <div className="stat-text d-flex flex-wrap align-items-baseline">
+            <span className="stat-number fw-bold me-1">2</span>
+            <span className="stat-label">verified ethical brands partnered</span>
+          </div>
+        </div>
+      </div>
+      
+      <div className="col-md-3">
+        <div className="stat-item d-flex align-items-center">
+          <span className="stat-icon me-2">❤️</span>
+          <div className="stat-text d-flex flex-wrap align-items-baseline">
+            <span className="stat-number fw-bold me-1">50k</span>
+            <span className="stat-label">raised to support Gaza</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
       {/* How It Works Section */}
       <section className="how-it-works py-5">
         <div className="container text-center">
@@ -218,13 +264,11 @@ function GloryLandingPage() {
       </div>
     
       {/* Email row */}
-      <div className="row align-items-center">
-        <div className="col-md-6 text-md-end mt-3 mt-md-0 mobile-center">
-          <div className="contact-email">
-            <a href="mailto:Gloryapp.pk@gmail.com" className="text-light">
-              <i className="bi bi-envelope me-2"></i>Gloryapp.pk@gmail.com
-            </a>
-          </div>
+      <div className="col-md-6 text-md-end mobile-center">
+        <div className="contact-email mt-3 mt-md-0">
+          <a href="mailto:Gloryapp.pk@gmail.com" className="text-light">
+            <i className="bi bi-envelope me-2"></i>Gloryapp.pk@gmail.com
+          </a>
         </div>
       </div>
     </div>

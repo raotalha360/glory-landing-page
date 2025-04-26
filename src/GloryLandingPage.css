@@ -12,6 +12,37 @@ body {
   font-family: 'Arial', sans-serif;
 }
 
+.stats-counter {
+  background-color: #3c4a34;
+  color: white;
+}
+
+.stat-item {
+  padding: 10px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.stat-icon {
+  font-size: 1.25rem;
+}
+
+.stat-number {
+  font-size: 1.1rem;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.stat-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .glory-landing {
   background-color: #ffffff;
 }
@@ -91,6 +122,19 @@ header {
 .btn-success:hover {
   background-color: #2d4020;
   border-color: #2d4020;
+}
+/* Bar under Hero Section */
+.stat-item {
+  margin-bottom: 15px;
+  justify-content: center;
+}
+
+.stats-counter .col-md-3 {
+  text-align: center;
+}
+
+.stat-text {
+  max-width: 100%;
 }
 
 /* Custom Image Grid Styles */
@@ -411,6 +455,12 @@ header {
   .mobile-center span,
   .mobile-center p {
     text-align: center !important;
+  }
+  .contact-email {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
   }
   .hero-content .donate-btn{
     display:none !important;
