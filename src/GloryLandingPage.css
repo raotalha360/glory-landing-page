@@ -403,6 +403,46 @@ header {
 }
 
 @media (max-width: 768px) {
+
+  /* Mobile center alignment for footer */
+
+  .mobile-center,
+  .mobile-center div,
+  .mobile-center span,
+  .mobile-center p {
+    text-align: center !important;
+  }
+  
+  .footer .footer-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .footer .social-links-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .footer .social-links p {
+    text-align: center !important;
+  }
+  
+  .footer .contact-email {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  /* Force all text containers to center */
+  .footer .mt-2.mb-3,
+  .footer .mt-3,
+  .footer .social-links {
+    text-align: center !important;
+    width: 100%;
+  }
+
   .hero-section {
     padding: 20px 0;
     margin-left: 15px;

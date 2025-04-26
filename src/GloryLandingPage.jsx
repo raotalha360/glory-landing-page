@@ -191,7 +191,7 @@ function GloryLandingPage() {
   <div className="container">
     <div className="row">
       {/* Left column with logo, text, and social links */}
-      <div className="col-md-6 text-start">
+      <div className="col-md-6 text-start mobile-center">
         {/* Logo */}
         <img src="/images/glory-logo-white.png" alt="Glory Logo" className="footer-logo mb-2" />
         
@@ -205,27 +205,29 @@ function GloryLandingPage() {
         {/* Social Links */}
         <div className="social-links mt-3">
           <p className="text-light mb-2">FOLLOW US</p>
-          <a href="https://x.com/" className="text-light me-2">LinkedIn</a>
-          <span className="text-light mx-1">/</span>
-          <a href="https://x.com/" className="text-light me-2 ms-1">WhatsApp</a>
-          <span className="text-light mx-1">/</span>
-          <a href="https://x.com/" className="text-light ms-1">Instagram</a>
-          <span className="text-light mx-1">/</span>
-          <a href="https://x.com/" className="text-light ms-1">Instagram</a>
+          <div className="social-links-container">
+            <a href="https://x.com/" className="text-light me-2">LinkedIn</a>
+            <span className="text-light mx-1">/</span>
+            <a href="https://x.com/" className="text-light me-2 ms-1">WhatsApp</a>
+            <span className="text-light mx-1">/</span>
+            <a href="https://x.com/" className="text-light ms-1">Instagram</a>
+            <span className="text-light mx-1">/</span>
+            <a href="https://x.com/" className="text-light ms-1">Facebook</a>
+          </div>
         </div>
       </div>
     
-    {/* Second Row - FOLLOW US and Email */}
-    <div className="row align-items-center">
-      <div className="col-md-6 text-md-end mt-3 mt-md-0">
-        <div className="contact-email">
-          <a href="mailto:info@goloriy.com" className="text-light">
-            <i className="bi bi-envelope me-2"></i>Gloryapp.pk@gmail.com
-          </a>
+      {/* Email row */}
+      <div className="row align-items-center">
+        <div className="col-md-6 text-md-end mt-3 mt-md-0 mobile-center">
+          <div className="contact-email">
+            <a href="mailto:Gloryapp.pk@gmail.com" className="text-light">
+              <i className="bi bi-envelope me-2"></i>Gloryapp.pk@gmail.com
+            </a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
   </div>
 </footer>
     </div>
