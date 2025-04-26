@@ -85,11 +85,9 @@ function GloryLandingPage() {
               <div className="feature-card bg-light-cream p-4 rounded h-100">
                 <h3 className="fw-bold">See the Truth. Understand the Why.</h3>
                 <p className="text-muted mt-3">
-                  Each product page gives you the full picture — why it's on the boycott list, with trusted proof and context, so you can make your decision with confidence.
+                Each product page gives you the full picture — why it's on the boycott list, with trusted proof and context, so you can make your decision with confidence.
                 </p>
-                <div className="product-example mt-3">
-                  <img src="/images/pepsi-example.png" alt="Pepsi Example" className="img-fluid rounded" />
-                </div>
+                <img src="/images/pepsi.png" alt="App Screenshot" className="img-fluid rounded mt-3" />
               </div>
             </div>
             <div className="col-md-4">
