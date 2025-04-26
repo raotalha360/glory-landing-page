@@ -189,38 +189,43 @@ function GloryLandingPage() {
 {/* Footer */}
 <footer className="footer py-3">
   <div className="container">
-    {/* First Row - Logo and Text */}
-    <div className="row align-items-center mb-3">
-      <div className="col-6 text-start">
-        <img src="/images/glory-logo-white.png" alt="Glory Logo" className="footer-logo" />
-      </div>
-      <div className="col-6 text-end">
-        <span className="text-light">
-          Made with purpose by Glory Team. Designed for the people.
-        </span>
-      </div>
-    </div>
-    
-    {/* Second Row - FOLLOW US and Email */}
-    <div className="row align-items-center">
+    <div className="row">
+      {/* Left column with logo, text, and social links */}
       <div className="col-md-6 text-start">
-        <div className="social-links">
+        {/* Logo */}
+        <img src="/images/glory-logo-white.png" alt="Glory Logo" className="footer-logo mb-2" />
+        
+        {/* Tagline */}
+        <div className="mt-2 mb-3">
+          <span className="text-light">
+            Made with purpose by Glory Team. Designed for the people.
+          </span>
+        </div>
+        
+        {/* Social Links */}
+        <div className="social-links mt-3">
           <p className="text-light mb-2">FOLLOW US</p>
           <a href="https://x.com/" className="text-light me-2">LinkedIn</a>
           <span className="text-light mx-1">/</span>
           <a href="https://x.com/" className="text-light me-2 ms-1">WhatsApp</a>
           <span className="text-light mx-1">/</span>
           <a href="https://x.com/" className="text-light ms-1">Instagram</a>
+          <span className="text-light mx-1">/</span>
+          <a href="https://x.com/" className="text-light ms-1">Instagram</a>
         </div>
       </div>
+    
+    {/* Second Row - FOLLOW US and Email */}
+    <div className="row align-items-center">
       <div className="col-md-6 text-md-end mt-3 mt-md-0">
         <div className="contact-email">
           <a href="mailto:info@goloriy.com" className="text-light">
-            <i className="bi bi-envelope me-2"></i>info@logoipsum.com
+            <i className="bi bi-envelope me-2"></i>Gloryapp.pk@gmail.com
           </a>
         </div>
       </div>
     </div>
+  </div>
   </div>
 </footer>
     </div>
