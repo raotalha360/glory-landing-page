@@ -1,7 +1,55 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './GloryLandingPage.css';
 
 function GloryLandingPage() {
+
+  useEffect(() => {
+    // This code runs after component renders and DOM is ready
+    const prevBtn = document.querySelector('.prev-btn');
+    const nextBtn = document.querySelector('.next-btn');
+    const wrapper = document.querySelector('.testimonial-wrapper');
+    const indicators = document.querySelectorAll('.indicator');
+    
+    // Set card width for scrolling
+    const cardWidth = document.querySelector('.testimonial-card')?.offsetWidth + 16 || 316; // width + margin
+    
+    const handlePrevClick = () => {
+      wrapper.scrollBy({ left: -cardWidth, behavior: 'smooth' });
+    };
+    
+    const handleNextClick = () => {
+      wrapper.scrollBy({ left: cardWidth, behavior: 'smooth' });
+    };
+    
+    const handleScroll = () => {
+      const scrollPosition = wrapper.scrollLeft;
+      const containerWidth = wrapper.offsetWidth;
+      const totalWidth = wrapper.scrollWidth;
+      
+      // Calculate progress (0 to 1)
+      const progress = scrollPosition / (totalWidth - containerWidth);
+      
+      // Update indicators
+      indicators.forEach((indicator, index) => {
+        const segment = 1 / indicators.length;
+        indicator.classList.toggle('active', 
+          progress >= index * segment && progress < (index + 1) * segment);
+      });
+    };
+    
+    // Add event listeners
+    if (prevBtn) prevBtn.addEventListener('click', handlePrevClick);
+    if (nextBtn) nextBtn.addEventListener('click', handleNextClick);
+    if (wrapper) wrapper.addEventListener('scroll', handleScroll);
+    
+    // Cleanup event listeners when component unmounts
+    return () => {
+      if (prevBtn) prevBtn.removeEventListener('click', handlePrevClick);
+      if (nextBtn) nextBtn.removeEventListener('click', handleNextClick);
+      if (wrapper) wrapper.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <div className="glory-landing">
       {/* Header with Logo */}
@@ -204,6 +252,101 @@ function GloryLandingPage() {
           </div>
         </div>
       </section>
+
+      {/* Testimonials Section */}
+<section className="testimonials-section py-5">
+  <div className="container">
+    <h2 className="text-center fw-bold mb-3">What People Are Saying</h2>
+    <p className="text-center mb-5">
+      Over 50,000+ users with positive vibes.
+    </p>
+    
+    <div className="testimonial-carousel position-relative">
+      <div className="testimonial-wrapper overflow-auto pb-4">
+        <div className="d-flex">
+          {/* Testimonial Card 1 */}
+          <div className="testimonial-card me-4">
+            <div className="card-body p-4">
+              <p className="testimonial-text mb-4">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolore magna"
+              </p>
+              <div className="testimonial-author d-flex align-items-center">
+                <div className="author-avatar bg-secondary rounded-circle me-3"></div>
+                <div className="author-info">
+                  <h6 className="mb-0 fw-bold">Paqueta Carles</h6>
+                  <p className="text-muted mb-0 text-start">Influencer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          {/* Testimonial Card 2 */}
+          <div className="testimonial-card me-4">
+            <div className="card-body p-4">
+              <p className="testimonial-text mb-4">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolore magna"
+              </p>
+              <div className="testimonial-author d-flex align-items-center">
+                <div className="author-avatar bg-secondary rounded-circle me-3"></div>
+                <div className="author-info">
+                  <h6 className="mb-0 fw-bold">Zee Morpes</h6>
+                  <p className="text-muted mb-0 text-start">Influencer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          {/* Testimonial Card 3 */}
+          <div className="testimonial-card me-4">
+            <div className="card-body p-4">
+              <p className="testimonial-text mb-4">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolore magna"
+              </p>
+              <div className="testimonial-author d-flex align-items-center">
+                <div className="author-avatar bg-secondary rounded-circle me-3"></div>
+                <div className="author-info">
+                  <h6 className="mb-0 fw-bold">Le Celso</h6>
+                  <p className="text-muted mb-0 text-start">Influencer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          {/* Testimonial Card 4 */}
+          <div className="testimonial-card">
+            <div className="card-body p-4">
+              <p className="testimonial-text mb-4">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolore magna"
+              </p>
+              <div className="testimonial-author d-flex align-items-center">
+                <div className="author-avatar bg-secondary rounded-circle me-3"></div>
+                <div className="author-info">
+                  <h6 className="mb-0 fw-bold">Maya Johnson</h6>
+                  <p className="text-muted mb-0 text-start">Influencer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      {/* Navigation Arrows */}
+      <button className="carousel-control prev-btn">
+        <span className="carousel-arrow">&#10094;</span>
+      </button>
+      <button className="carousel-control next-btn">
+        <span className="carousel-arrow">&#10095;</span>
+      </button>
+      
+      {/* Pagination Indicators */}
+      <div className="carousel-indicators">
+        <span className="indicator active"></span>
+        <span className="indicator"></span>
+        <span className="indicator"></span>
+      </div>
+    </div>
+  </div>
+</section>
 
 {/* Why This Matters Section */}
 <section className="why-matters-section py-5">

@@ -71,13 +71,111 @@ header {
   padding-left: 15px;
   padding-right: 0; /* Removed right padding */
 }
+/* Testimonials Section Styles */
+.testimonials-section {
+  padding: 30px 0;
+  background-color: #ffffff;
+}
 
+.testimonial-carousel {
+  padding: 20px 0;
+}
+
+.testimonial-wrapper {
+  overflow-x: auto;
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  scroll-behavior: smooth;
+  padding-bottom: 20px;
+}
+
+.testimonial-wrapper::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+}
+
+.testimonial-card {
+  min-width: 300px;
+  max-width: 350px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s ease;
+  border:1px solid #e7e7e7;
+}
+
+.testimonial-card:hover {
+  background-color: #F6F2E6; /* Your specified hover color */
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.author-avatar {
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+
+/* Navigation Controls */
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.prev-btn {
+  left: -15px;
+}
+
+.next-btn {
+  right: -15px;
+}
+
+.carousel-arrow {
+  font-size: 18px;
+  line-height: 1;
+}
+
+/* Pagination Indicators */
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.indicator.active {
+  background-color: #999;
+}
 /* Additional spacing on medium and large devices */
 @media (min-width: 1200px) {
   .hero-section {
     margin-left: 60px;
     margin-right: 60px;
   }
+  
 }
 
 @media (min-width: 768px) {
@@ -412,6 +510,7 @@ header {
   color: #4eb9ec !important;
 }
 
+
 /* Mobile Responsiveness */
 @media (max-width: 992px) {
   .hero-content {
@@ -636,6 +735,23 @@ header {
   
   .footer .social-links {
     text-align: left;
+  }
+  /* Testimonial Mobile Responsive of cards */
+  .testimonial-card {
+    min-width: 260px;
+  }
+  
+  .carousel-control {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .prev-btn {
+    left: -5px;
+  }
+  
+  .next-btn {
+    right: -5px;
   }
 }
 
