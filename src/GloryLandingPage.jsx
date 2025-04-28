@@ -271,7 +271,7 @@ function GloryLandingPage() {
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolore magna"
               </p>
               <div className="testimonial-author d-flex align-items-center">
-                <div className="author-avatar bg-secondary rounded-circle me-3"></div>
+                {/*<div className="author-avatar bg-secondary rounded-circle me-3"></div>*/}
                 <div className="author-info">
                   <h6 className="mb-0 fw-bold">Paqueta Carles</h6>
                   <p className="text-muted mb-0 text-start">Influencer</p>
@@ -287,7 +287,7 @@ function GloryLandingPage() {
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolore magna"
               </p>
               <div className="testimonial-author d-flex align-items-center">
-                <div className="author-avatar bg-secondary rounded-circle me-3"></div>
+             {/* <div className="author-avatar bg-secondary rounded-circle me-3"></div>*/}
                 <div className="author-info">
                   <h6 className="mb-0 fw-bold">Zee Morpes</h6>
                   <p className="text-muted mb-0 text-start">Influencer</p>
