@@ -267,8 +267,9 @@ function GloryLandingPage() {
           {/* Testimonial Card 1 */}
           <div className="testimonial-card me-4">
             <div className="card-body p-4">
-              <p className="testimonial-text mb-4">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolore magna"
+              <p className="testimonial-text mb-4 text-start">
+                "I just saw the post regarding your new venture, Glory. This is such a great initiative. I used to notice that despite the importance of this issue, there was kind-of no action being taken. I am genuinely happy to see you stepping up and addressing it. 
+                Wishing you all the best as you move forward with your launch "
               </p>
               <div className="testimonial-author d-flex align-items-center">
                 {/*<div className="author-avatar bg-secondary rounded-circle me-3"></div>*/}
@@ -283,8 +284,8 @@ function GloryLandingPage() {
           {/* Testimonial Card 2 */}
           <div className="testimonial-card me-4">
             <div className="card-body p-4">
-              <p className="testimonial-text mb-4">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolore magna"
+              <p className="testimonial-text mb-4 text-start">
+                "Noticed your update about Glory — what an incredible move! It's inspiring to see someone recognize the gap and actually do something about it. This initiative feels long overdue and I'm excited to see how it evolves. Best of luck with this new chapter, you’re going to do amazing!"
               </p>
               <div className="testimonial-author d-flex align-items-center">
              {/* <div className="author-avatar bg-secondary rounded-circle me-3"></div>*/}
@@ -299,8 +300,8 @@ function GloryLandingPage() {
           {/* Testimonial Card 3 */}
           <div className="testimonial-card me-4">
             <div className="card-body p-4">
-              <p className="testimonial-text mb-4">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolore magna"
+              <p className="testimonial-text mb-4 text-start">
+                "Just saw the news about Glory — truly fantastic work. It’s rare to find initiatives that aim to genuinely solve real issues rather than just talk about them. Your leadership and commitment are truly admirable. Rooting for your success as you take this exciting step forward!"
               </p>
               <div className="testimonial-author d-flex align-items-center">
                 <div className="author-avatar bg-secondary rounded-circle me-3"></div>
@@ -315,8 +316,8 @@ function GloryLandingPage() {
           {/* Testimonial Card 4 */}
           <div className="testimonial-card">
             <div className="card-body p-4">
-              <p className="testimonial-text mb-4">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolore magna"
+              <p className="testimonial-text mb-4 text-start">
+                "Came across your post about Glory, and I couldn’t be happier to see this happening. It’s something that’s been needed for a long time, and it's inspiring to see you at the forefront of change. Wishing you nothing but growth and great impact as you bring your vision to life!"
               </p>
               <div className="testimonial-author d-flex align-items-center">
                 <div className="author-avatar bg-secondary rounded-circle me-3"></div>
