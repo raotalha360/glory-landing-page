@@ -274,8 +274,8 @@ function GloryLandingPage() {
               <div className="testimonial-author d-flex align-items-center">
                 {/*<div className="author-avatar bg-secondary rounded-circle me-3"></div>*/}
                 <div className="author-info">
-                  <h6 className="mb-0 fw-bold">Paqueta Carles</h6>
-                  <p className="text-muted mb-0 text-start">Influencer</p>
+                  <h6 className="mb-0 fw-bold">Hasnain Haneef</h6>
+                  <p className="text-muted mb-0 text-start">Software Developer</p>
                 </div>
               </div>
             </div>
@@ -290,7 +290,7 @@ function GloryLandingPage() {
               <div className="testimonial-author d-flex align-items-center">
              {/* <div className="author-avatar bg-secondary rounded-circle me-3"></div>*/}
                 <div className="author-info">
-                  <h6 className="mb-0 fw-bold">Zee Morpes</h6>
+                  <h6 className="mb-0 fw-bold">M Talha</h6>
                   <p className="text-muted mb-0 text-start">Influencer</p>
                 </div>
               </div>
@@ -306,7 +306,7 @@ function GloryLandingPage() {
               <div className="testimonial-author d-flex align-items-center">
                 <div className="author-avatar bg-secondary rounded-circle me-3"></div>
                 <div className="author-info">
-                  <h6 className="mb-0 fw-bold">Le Celso</h6>
+                  <h6 className="mb-0 fw-bold">M Usman</h6>
                   <p className="text-muted mb-0 text-start">Influencer</p>
                 </div>
               </div>
@@ -322,7 +322,7 @@ function GloryLandingPage() {
               <div className="testimonial-author d-flex align-items-center">
                 <div className="author-avatar bg-secondary rounded-circle me-3"></div>
                 <div className="author-info">
-                  <h6 className="mb-0 fw-bold">Maya Johnson</h6>
+                  <h6 className="mb-0 fw-bold">Muhammad Yousaf</h6>
                   <p className="text-muted mb-0 text-start">Influencer</p>
                 </div>
               </div>
